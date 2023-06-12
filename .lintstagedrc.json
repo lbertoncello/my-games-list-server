@@ -1,0 +1,6 @@
+{
+  "*.{js,jsx,cjs,mjs}": [
+    "eslint . --ext .js,.jsx,.cjs,.mjs --fix",
+    "yarn test:staged"
+  ]
+}
